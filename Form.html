@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Prashant Home</title>
+
+
+<!-- Below is the CSS for this sheet -->
+<link rel="stylesheet" type="text/css" href="formdesign.css">
+<!-- CSS Completed -->
+<script type="text/javascript" src="formValidation.js"></script>
+</head>
+
+
+<body>
+
+
+<!-- Below is the Form in Table -->
+<form name="contact_form" action="index.php" method="post" onsubmit="return submitForm();" >
+
+<table align="center">
+  <caption><h1>Prashant Malik</h1></caption>
+  <tr>
+    <td width="130px"><label for="FullName">Name*</label></td>
+   <td width="190px"><input  type="text" name="FullName" id="FullName"  autofocus /></td>
+	<td  class="message" id="NameMessage" >Please enter your name !</td>
+  </tr>
+  <tr>
+    <td width="100px"><label for="Address">Address</label></td>
+   <td width="180px"><input  type="text" name="Address" id="Address"  autofocus /></td>
+	<td class="message" id="AddressMessage">Please enter Address !</td>
+  </tr>
+  <tr>
+    <td width="100px"><label for="ZipCode">Zip Code*</label></td> 
+   <td width="180px"><input  type="text" name="ZipCode" id="ZipCode"  autofocus /></td>
+	<td class="message" id="ZipCodeMessage">Please enter Zip Code !</td>
+  </tr>
+  <tr>
+    <td width="100px"><label for="Country">Country*</label></td>
+   <td width="180px"><select id="Country" name="Country">
+    <option value="">Please Select...........</option>
+    <option value="India">India</option>
+    <option value="America">America</option>
+    <option value="China">China</option>
+    <option value="United Kingdom">United Kingdom</option>
+  </select></td>
+	<td class="message" id="CountryMessage">Please enter Country !</td>
+  </tr>
+   <tr>
+    <td width="100px"><label for="Gender">Gender*</label></td> 
+   <td width="180px"><label><input type="radio" name="Gender" value="m" > Male</label>
+    <label><input type="radio" name="Gender" value="f"> Female</label></td>
+	<td class="message" id="GenderMessage">Please enter Gender !</td>
+  </tr>
+  <tr>
+  <td><label for="dob">Birthday*</label></td>
+  <td><label><input type="text" name="dob" id="dob"><label></td>
+  <td  class="message" id="dobMessage">Please enter a valid Birth Date in dd-mm-yyyy Format !</td>
+  </tr>
+  <tr>
+    <td width="100px"><label for="Preference">Preference*</label></td> 
+   <td width="180px"><label><input type="checkbox" name="Preference" value="Red" id="PreferenceA" > Red</label>
+    <label><input type="checkbox" name="Preference" value="Green" id="PreferenceB" > Green</label>
+    <label><input type="checkbox" name="Preference" value="Blue" id="PreferenceC"> Blue</label></td>
+	<td  class="message" id="PrefMessage">Please enter your Preference !</td>
+  </tr>
+  <tr>
+    <td width="100px"><label for="Phone">Phone*</label></td> 
+   <td width="180px"><input  type="text"  name="Phone" id="Phone"  autofocus /></td>
+	<td class="message" id="PhoneMessage">Please enter a valid 10-digits Phone Numebr !</td>
+  </tr>
+  <tr>
+    <td width="100px"><label for="Email">Email*</label></td> 
+   <td width="180px"><input  type="text" name="Email" id="Email"   autofocus /></td>
+	<td class="message" id="EmailMessage">Please enter an Valid Email Id !</td>
+  </tr>
+  <tr>
+    <td width="100px"><label for="passwordA">Password*</label></td>
+   <td width="180px"><input  type="password" name="passwordA" id="passwordA"  />
+	<td class="message" id="PasswordAMessage">Please enter a minimum 8-Digit Password !</td>
+  </tr>
+  <tr>
+    <td width="100px"><label for="passwordB">Verify Password*</label></td>
+   <td width="180px"><input  type="password" name="passwordB" id="passwordB"  autofocus /></td>
+	<td class="message" id="PasswordBMessage">Password do not Match !</td>
+  </tr>
+  <tr>
+    <td width="100px"></td>
+   <td width="100px"><input type="submit"  value="SEND "  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="CLEAR" /></td>
+	<td></td>
+  </tr>
+</table>
+
+<!-- Table Completed in FORM -->
+
+</body>
+<html>

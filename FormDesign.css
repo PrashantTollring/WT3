@@ -1,0 +1,31 @@
+
+
+body {                                         
+	background-color: #E0FFFF;
+  color: red;
+}
+
+table {                                         
+     margin-top: 100px;
+    width: 600px; 
+	background-color: #7FFFD4;
+  color: black;
+  border-style: double;
+  font-size: large;
+  }
+
+h1 {                                         
+    margin: 0 auto; 
+    width: 600px; 
+	background-color: #7FFFD4;
+  color: black;
+  border-style: double;
+}
+
+.message {                                         
+    
+  color: red;
+  display : none;
+  
+}
+
